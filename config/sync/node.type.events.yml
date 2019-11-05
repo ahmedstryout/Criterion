@@ -1,0 +1,18 @@
+uuid: c3d65842-be68-4541-9702-ff644ebcdfeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Events
+type: events
+description: 'Add new Events page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

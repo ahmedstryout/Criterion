@@ -1,0 +1,23 @@
+uuid: f3f32173-a775-4224-a4db-ccea49da5136
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dont_require_registration
+    - node.type.events
+id: node.events.field_dont_require_registration
+field_name: field_dont_require_registration
+entity_type: node
+bundle: events
+label: 'Dont Require Registration'
+description: 'Check if Event doesn''t require a registration'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

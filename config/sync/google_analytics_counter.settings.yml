@@ -1,0 +1,20 @@
+general_settings:
+  client_id: 948664036220-drckjstthocvufbk5m8ua4mrbt8v23no.apps.googleusercontent.com
+  client_secret: ''
+  redirect_uri: 'http://localhost/drupal8/web/admin/config/system/google-analytics-counter/authentication'
+  cron_interval: 30
+  chunk_to_fetch: 1000
+  api_dayquota: 50000
+  cache_length: 86400
+  queue_time: 120
+  start_date: '30 days ago'
+  project_name: ''
+  profile_id: unauthenticated
+  gac_type_article: null
+  gac_type_events: null
+  gac_type_page: null
+  gac_type_update: null
+  gac_type_venue: null
+  profile_name: false
+_core:
+  default_config_hash: qjOaOlAGehXT0ZNiVlP6Rsje1b4bDcgpL7Nt2gfvtkU

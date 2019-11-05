@@ -10,6 +10,8 @@
 # Ignore sensitive information
 /web/sites/*/settings.php
 /web/sites/*/settings.local.php
+/config/sync/google_analytics.settings.yml
+/config/sync/shield.settings.yml
 
 # Ignore Drupal's file directory
 /web/sites/*/files/

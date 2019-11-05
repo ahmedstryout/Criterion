@@ -1,0 +1,23 @@
+uuid: 3673f43c-7fd8-4b5a-9fb9-3d0e15f2d93f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paid
+    - node.type.events
+id: node.events.field_paid
+field_name: field_paid
+entity_type: node
+bundle: events
+label: Paid
+description: 'Is the Event a Paid Event or not.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

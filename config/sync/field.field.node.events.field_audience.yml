@@ -1,0 +1,21 @@
+uuid: 1797be7c-60e5-4195-8347-cd94617a7e59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audience
+    - node.type.events
+  module:
+    - options
+id: node.events.field_audience
+field_name: field_audience
+entity_type: node
+bundle: events
+label: Audience
+description: 'Type of Audience attending Event'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

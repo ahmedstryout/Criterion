@@ -1,0 +1,14 @@
+uuid: 64a04fdb-0b6b-4688-8483-b07320d2a07a
+langcode: en
+status: true
+dependencies: {  }
+name: custom_650x450_
+label: Custom(650x450)
+effects:
+  cd570b7e-b45a-4012-852b-049b459e7232:
+    uuid: cd570b7e-b45a-4012-852b-049b459e7232
+    id: image_resize
+    weight: 1
+    data:
+      width: 650
+      height: 450

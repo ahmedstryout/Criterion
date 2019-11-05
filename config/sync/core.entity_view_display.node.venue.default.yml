@@ -1,0 +1,26 @@
+uuid: db471421-77b6-49de-bcde-87cd203cbe1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.venue.body
+    - field.field.node.venue.field_address
+    - node.type.venue
+  module:
+    - address
+    - user
+id: node.venue.default
+targetEntityType: node
+bundle: venue
+mode: default
+content:
+  field_address:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+hidden:
+  body: true
+  links: true
